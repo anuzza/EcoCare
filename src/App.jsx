@@ -15,7 +15,7 @@ import Orders from './components/policies/Orders';
 import FAQs from './components/faqs/FAQs';
 
 function App() {
- 
+
   return (
     <Router>
       <ScrollToTop />
