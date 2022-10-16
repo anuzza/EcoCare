@@ -16,7 +16,7 @@ const INITIAL_STATE = {
           Wash by hand or washing machine in cold water <br />
         </p>
       ),
-      price: 50000,
+      price: 50,
       image: IMG2,
       quantity: 30,
     },
@@ -32,7 +32,7 @@ const INITIAL_STATE = {
           Capacity of 2-3 pads
         </p>
       ),
-      price: 50000,
+      price: 50,
       image: IMG1,
       quantity: 9,
     },
@@ -48,7 +48,7 @@ const INITIAL_STATE = {
           heat on the go <br />
         </p>
       ),
-      price: 20000,
+      price: 20,
       image: IMG4,
       quantity: 0,
     },

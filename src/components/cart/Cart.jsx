@@ -54,7 +54,7 @@ function Cart() {
           value={totalPrice}
           displayType={"text"}
           thousandSeparator={true}
-          prefix={"UGX"}
+          prefix={"$"}
         />
       </p>
     </div>

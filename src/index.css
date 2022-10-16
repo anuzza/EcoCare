@@ -33,7 +33,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var( --body-bg);
+  background: var(--body-bg);
   color: var(--color-primary);
   line-height: 1.7;
   height: 100%;
