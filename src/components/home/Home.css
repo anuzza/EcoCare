@@ -1,0 +1,15 @@
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+    .home__container {
+        overflow: hidden;
+    }
+}
+
+.home__container > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    margin-top: 0;
+}
