@@ -17,7 +17,7 @@ html {
 
 :root {
   --color-bg: #5c66a7;
-  --body-bg: #eee
+  --body-bg: #eee;
   --color-bg-variant: #f8edeb;
   --color-primary: #1f4331;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .btn:hover {
-  opacity:0.7
+  opacity: 0.7;
 }
 
 .btn-primary {
