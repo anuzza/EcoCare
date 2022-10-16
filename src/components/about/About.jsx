@@ -1,17 +1,13 @@
-import React from 'react'
-import './About.css'
-import AboutContent from './AboutContent'
-import AboutFounders from './AboutFounders'
-import green from '../../images/white.jpg'
+import React from "react";
+import "./About.css";
+import AboutContent from "./AboutContent";
 
 function About() {
   return (
     <div className="about">
-      <img src={green} alt="" />
-      <AboutContent/>
-      <AboutFounders/>
+      <AboutContent />
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

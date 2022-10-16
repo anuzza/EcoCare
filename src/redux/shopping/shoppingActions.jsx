@@ -1,36 +1,42 @@
-import * as actionTypes from './actionTypes'
+import * as actionTypes from "./actionTypes";
 
 export const addToCart = (itemID) => {
-    return{
-        type: actionTypes.ADD_TO_CART,
-        payload: {
-            id: itemID,
-        },
-    }
-}
+  return {
+    type: actionTypes.ADD_TO_CART,
+    payload: {
+      id: itemID,
+    },
+  };
+};
+
+export const emptyCart = () => {
+  return {
+    type: actionTypes.EMPTY_CART,
+  };
+};
 
 export const removeFromCart = (itemID) => {
-    return{
-        type: actionTypes.REMOVE_FROM_CART,
-        payload: {
-            id: itemID,
-        }
-    }
-}
+  return {
+    type: actionTypes.REMOVE_FROM_CART,
+    payload: {
+      id: itemID,
+    },
+  };
+};
 
 export const adjustItemQty = (itemID, qty) => {
-    return{
-        type: actionTypes.ADJUST_ITEM_QTY,
-        payload: {
-            id: itemID,
-            qty,
-        }
-    }
-}
+  return {
+    type: actionTypes.ADJUST_ITEM_QTY,
+    payload: {
+      id: itemID,
+      qty,
+    },
+  };
+};
 
 export const loadCurrentItem = (item) => {
-    return {
-        type: actionTypes.LOAD_CURRENT_ITEM,
-        payload: item,
-    };
+  return {
+    type: actionTypes.LOAD_CURRENT_ITEM,
+    payload: item,
+  };
 };

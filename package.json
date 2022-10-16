@@ -1,6 +1,5 @@
 {
-  "name": "ecooptions",
-  "homepage": "https://ecooptionsug.com",
+  "name": "ecocare",
   "private": true,
   "version": "0.1.0",
   "scripts": {
@@ -27,6 +26,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
+    "react-stripe-checkout": "^2.6.3",
     "redux": "^4.1.2",
     "redux-devtools-extension": "^2.13.9",
     "web-vitals": "^2.1.4"
